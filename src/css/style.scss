@@ -20,6 +20,9 @@ h1 {
 .list {
   font-weight: 300;
 }
+.italic {
+    font-style: italic;
+}
 .list {
     padding: 1rem;
 }
@@ -36,6 +39,9 @@ h1 {
   a {
       color: inherit;
   }
+}
+.flourish-embed {
+    padding: 1rem;
 }
 .container {
   width: 1080px;

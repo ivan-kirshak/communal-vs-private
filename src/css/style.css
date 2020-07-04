@@ -24,12 +24,17 @@ h1 {
   font-weight: 300;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .list {
   padding: 1rem;
 }
 
 .list-item {
   list-style: none;
+  padding: 0.25rem 0;
 }
 
 .caption {
@@ -41,6 +46,10 @@ h1 {
 
 .caption a {
   color: inherit;
+}
+
+.flourish-embed {
+  padding: 1rem;
 }
 
 .container {
