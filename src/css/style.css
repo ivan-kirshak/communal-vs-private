@@ -116,7 +116,7 @@ a {
   padding: 1rem;
 }
 
-.text__upper {
+.general {
   padding: 2rem 0;
 }
 
@@ -142,7 +142,7 @@ a {
   .container {
     width: 80%;
   }
-  .text__upper {
+  .general {
     padding: 1.25rem 0;
   }
   .footer {
