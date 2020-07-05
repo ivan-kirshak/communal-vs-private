@@ -86,7 +86,7 @@
                 <p class="text">Діаграма нижче показує стан справ у тролейбусному парку до появи 29 нових тролейбусів.
                     Вони мають замінити тролейбуси Skoda та ЮМЗ, які є найстаршими.</p>
 
-                <div class="flourish-embed flourish-scatter" data-src="visualisation/3080491"
+                <div class="flourish-embed lozad flourish-scatter" data-src="visualisation/3080491"
                     data-url="https://flo.uri.sh/visualisation/3080491/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
@@ -115,12 +115,12 @@
                     <li class="list-item"> - 11 тролейбусів по 135 людей</li>
                 </ul>
 
-                <!-- <div class="flourish-embed flourish-chart" data-src="visualisation/3070868"
+                <!-- <div class="flourish-embed lozad flourish-chart" data-src="visualisation/3070868"
                     data-url="https://flo.uri.sh/visualisation/3070868/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div> -->
 
-                <div class="flourish-embed flourish-chart" data-src="visualisation/3080638"
+                <div class="flourish-embed lozad flourish-chart" data-src="visualisation/3080638"
                     data-url="https://flo.uri.sh/visualisation/3080638/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
@@ -185,7 +185,7 @@
                     <li class="list-item"> - Автобус GULERYUZ COBRA GD 272 LF - 18 одиниць</li>
                 </ul>
 
-                <div class="flourish-embed flourish-scatter" data-src="visualisation/3080003"
+                <div class="flourish-embed lozad flourish-scatter" data-src="visualisation/3080003"
                     data-url="https://flo.uri.sh/visualisation/3080003/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
@@ -216,7 +216,7 @@
                     діапазонах. Для автобусів з місткістю 22 сидячих місць загальна кількість місць сягяє 50. Для
                     автобусів з кількістю сидячих місць 35 загальна ж кількість місць досягає 100. </p>
 
-                <div class="flourish-embed flourish-chart" data-src="visualisation/3070983"
+                <div class="flourish-embed lozad flourish-chart" data-src="visualisation/3070983"
                     data-url="https://flo.uri.sh/visualisation/3070983/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
@@ -235,7 +235,7 @@
             <div class="container">
                 <h1 class="speed__heading">Швидкість руху</h1>
 
-                <div class="flourish-embed flourish-chart" data-src="visualisation/3074785"
+                <div class="flourish-embed lozad flourish-chart" data-src="visualisation/3074785"
                     data-url="https://flo.uri.sh/visualisation/3074785/embed">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
@@ -250,7 +250,9 @@
             <div class="container">
                 <h1 class="map__heading">Зупинки</h1>
 
-                <iframe src="kepler.gl.html" class="map__iframe " frameborder="0"></iframe>
+                <div class="lozad">
+                    <iframe src="kepler.gl.html" class="map__iframe " frameborder="0"></iframe>
+                </div>
             </div>
         </section>
     </main>
@@ -265,5 +267,7 @@
     </footer>
 </body>
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>
