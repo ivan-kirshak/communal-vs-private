@@ -1,5 +1,6 @@
 $gray: #f3f1ef;
 $dark: #000000a1;
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,10 @@ h1 {
 }
 .italic {
   font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 .list {
   padding: 1rem;

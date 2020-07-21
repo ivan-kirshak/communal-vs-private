@@ -6,6 +6,10 @@ gulp.task('html', function () {
     return gulp.src("src/*.html")
         .pipe(gulp.dest('build'));
 })
+gulp.task('fonts', function () {
+    return gulp.src("src/fonts/*.otf")
+        .pipe(gulp.dest('build/fonts'));
+})
 gulp.task('minify', () => {
     return gulp.src('src/css/*.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))

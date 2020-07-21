@@ -26,6 +26,10 @@ h1 {
 
 .italic {
   font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
 .list {
